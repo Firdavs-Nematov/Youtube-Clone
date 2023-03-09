@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+  width: 0;
+  height: 1px;
+}
+
+.search-bar {
+  border: none;
+  outline: none;
+  width: 350px;
+  padding: 20px 0;
+}
+
+.category-btn {
+  width: 150px;
+  border: none;
+  margin: 0 10px;
+  background-color: transparent;
+}
+
+.category-btn span {
+  padding: 25px 30px;
+  color: rgba(55, 0, 255, 0.839);
+}
+
+.category-btn:hover {
+  background-color: rgba(185, 57, 57, 0.241);
+  border-radius: 15px;
+}
+
+.active {
+  background-color: rgba(185, 57, 57, 0.241);
+  border-radius: 15px;
+}
